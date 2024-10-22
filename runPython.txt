@@ -1,0 +1,7 @@
+Encontrei oculto no inspecionar, o link para "runPy.py".
+
+O código era um exemplo de decodificação e nele tinha o código: "aHNSdW5QeXRob24="
+
+Ao decodificar, obtém-se: "hsRunPython".
+
+FLAG OBTIDA!
