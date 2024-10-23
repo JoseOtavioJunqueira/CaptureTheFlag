@@ -1,0 +1,17 @@
+Ao olhar o DevTools, percebi um "<script/>" que não estava ali antes. Vi que o código sempre analisava se já havia algum "storage". Se havia, ele utilizava ele, se não, ele criava um com login definido como falso.
+
+Assim, eu precisava criar um "storage" e definir o login como true, para quando ele analisar, ver que já existia um e permitir minha entrada. 
+
+Além disso, troquei "disabled" por "enabled" no input.
+
+Abri o console e executei: "
+localStorage.setItem("session", JSON.stringify({
+  sessionName: "NewSessionName",
+  information: "Nova Informação Codificada",
+  login: true
+}));
+"
+
+Dei f5 para recarregar a página e digitei 'root' no input como ele pede.
+
+FLAG OBTIDA!
