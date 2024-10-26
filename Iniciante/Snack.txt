@@ -1,0 +1,7 @@
+Ao inspecionar o DevTools, encontrei uma página 'snack.png' e nela tinha uma foto de um cookie escrito 'Seria melhor um de verdade, não?'
+
+Logo, linkei aos cookies dos websites e fui procurar em 'Application' e 'Cookie'. Achei um cookie que não deveria estar ali com um código. Decodificando obtive 'false'.
+Após pensar um tempo, pensei em codificar a palavra 'true' em MD5 (a mesma que o 'false' estava) e trocar os códigos no cookie.
+Com isso, habilitei o botão que estava desativado e mandei com uma '#' que o exercício sugeria.
+
+FLAG OBTIDA!	

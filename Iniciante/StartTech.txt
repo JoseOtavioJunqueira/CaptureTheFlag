@@ -1,0 +1,6 @@
+Conhecendo um pouco de Hash e de Cifras, percebi que a parte anterior ao hífen estava em MD5 e a parte posterior em base64.
+
+Decodifiquei os dois separadamente e obtive "hackersec" e "edtech".
+Coloquei com hífen no meio do input.
+
+FLAG OBTIDA!

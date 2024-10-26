@@ -1,0 +1,6 @@
+Ao abrir o DevTools, achei um arquivo que falava sobre os cookies. Ao decifrar, recebi "versão v2". Como o desafio falava que a versão tinha sido atualizada, voltei ele para versão v1.
+Buscando mais informações achei um arquivo "arquivo-.pdf" (Nele tinha muitas coisas, como uma cifra falando para trocar ele para .txt, fiz isso e não obtive nenhuma resposta concreta).
+Como o exercício falava sobre senhas padrões, testei admin, Admin, Administrador, root, e esse último funcionou.
+Agora bastava a senha, e de novo consegui no chute, com root ao contrário, toor.
+
+FLAG OBTIDA!

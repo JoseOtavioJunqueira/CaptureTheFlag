@@ -1,0 +1,33 @@
+De cara, ao analisar o Inspecionar encontrei um comentário que nunca esteve ali. 
+
+Mostrava um /v2 e coloquei ele na URL.
+
+"https://capturetheflag.com.br/challenge/v2" deu erro 404, então adicionei "/index" no final e não deu erro.
+
+Como não retornou erro, mas retornou que o método não tem permissão, precisaria mudar o método. 
+
+Para isso, escrevi no Console do DevTools o comando:
+
+"fetch('https://capturetheflag.com.br/challenge/v2/index', { 
+  method: 'OPTIONS',
+  headers: {
+    'Content-Type': 'application/json',
+
+  },
+})
+.then(response => response.text()) 
+.then(data => console.log(data))
+.catch(error => console.error('Erro:', error));"
+
+Com objetivo de mudar o método de "GET" para "OPTIONS".
+Com isso, o site me respondeu com: "Its hot. Very Hot... 类籸籽籱籪籬籴籮类籼籮籬簪簭".
+
+Como o desafio diz que foram botnets chineses, traduzi para unicode o que estava em chinês e obtive: "\u7c7b\u7c78\u7c7d\u7c71\u7c6a\u7c6c\u7c74\u7c6e\u7c7b\u7c7c\u7c6e\u7c6c\u7c2a\u7c2d"
+
+Depois traduzi, pois me parecia algum código ASCII e obtive: "|{|x|}|q|j|l|t|n|{|||n|l|*|-".
+ 
+Coloquei, então em um tradutor ROT CIPHER (https://www.dcode.fr/rot-cipher?__r=1.18d8544d3c1f08a26979be3a9b57e981) e obtive: "SRSOSTSHSASCSKSESRSSSESCS_Sb". Pela quantidade de 'S', retirei o '|' e traduzi novamente. 
+
+Obtive então: "rothackersec!$" 
+
+FLAG OBTIDA! 

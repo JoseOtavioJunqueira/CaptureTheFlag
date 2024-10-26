@@ -1,0 +1,22 @@
+O desafio dizia que precisava de mais de uma criptografia.
+Ao olhar o DevTools, encontrei: " +++++ +++++ [->++ +++++ +++<] >++++ +++++ +++++ +.<++ +[->- --<]> -----
+      .++++ +++++ .---- --.-- ----- .<+++ +++++ [->-- ----- -<]>- .<+++ +++++
+      [->++ +++++ +<]>+ +++++ +++++ +.+++ .<+++ [->-- -<]>- --.-- .<+++ [->++
+      +<]>+ +.--- .<+++ +[->+ +++<] >+.<+ ++++[ ->--- --<]> .+++. ---.< +++++
+      +++[- >---- ----< ]>-.< +++++ +++[- >++++ ++++< ]>+++ +++++ +++++ +.+.<
+      +++++ +++[- >---- ----< ]>--- ----- ----- --.<+ +++++ ++[-> +++++ +++<]
+      >+.<+ +++[- >++++ <]>+. -.+++ +.<++ +[->- --<]> ---.< +++[- >+++< ]>+++
+      +.--- ----. <++++ ++++[ ->--- ----- <]>-- ----- ----- ---.< +++++ +++[-
+      >++++ ++++< ]>+++ +++++ +++++ +++.< +++[- >---< ]>--- ---.< ++++[ ->+++
+      +<]>+ +..<+ +++++ ++[-> ----- ---<] >---- --.+. <++++ ++++[ ->+++ +++++
+      <]>++ ++++. ++++. ----."
+E a criptografia dizia "senha localizada no arquivo pass-.txt"
+Entrei no URL "https://capturetheflag.com.br/challenge/pass-.txt" e o arquivo foi baixado, nele, estava escrito: "MDIvMTIvMjEgLSBTZW5oYSBjcmlwdG9ncmFmYWRhIGVtIEMmZWFjdXRlO3Nhci4gKGVudHJlIGEgcm90YSZjY2VkaWw7JmF0aWxkZTtvIDYgZSAxMCk=" e ao decifrar, obtive: "Senha criptografada em César. (entre a rotação 6 e 10)".
+
+Ainda no arquivo tinha outra linha de código com: "I amvpi nwq itbmzili vwdiumvbm, iowzi mab&iikcbm; mu Dqomvmzm (kwu i amvpi kbn)."
+
+Que em César na rotação 8, eu obtive: "A senha foi alterada novamente, agora est&seh;aacute; em Vigenere (com a senha ctf)", que por mais que esteja uma parte estranha, consegui entender que tinha algo pra fazer com Vigenere e a senha era 'ctf'.
+
+A última linha do mesmo arquivo eu coloquei em Vigenere com essa senha.
+
+FLAG OBTIDA!
