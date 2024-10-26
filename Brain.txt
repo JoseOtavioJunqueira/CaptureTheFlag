@@ -1,5 +1,0 @@
-Com o nome do desafio é "brain", joguei o código dado no enunciado no "BrainFuck" e obtive: "Qual nome do evento oficial da HackerSec?"
-
-Pesquisando rapidamente, vi que o evento oficial é: "HackerSec Conference".
-
-FLAG OBTIDA!

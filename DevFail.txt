@@ -1,7 +1,0 @@
-O código dizia sobre Code Review. 
-
-Olhando um código encontrei um comentário que dizia: "Criado a senha @123Mudar para efetuarmos testes, lembrar de remover em seguida" deixado por "acidente".
-
-Coloquei a senha "@123Mudar".
-
-FLAG OBTIDA!

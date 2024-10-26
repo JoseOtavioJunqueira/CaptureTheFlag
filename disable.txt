@@ -1,7 +1,0 @@
-Como o formulário estava inacessível, acessei o DevTools e troquei "disabled" para "enabled". 
-
-Mais abaixo tinha uma frase escrita: "Flag: disabled". 
-
-Coloquei "disabled" no input funcional
-
-FLAG OBITDA!

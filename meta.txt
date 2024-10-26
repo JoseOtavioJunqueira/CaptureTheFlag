@@ -1,8 +1,0 @@
-De cara, decodifiquei o código dado e obtive: "meta.png". 
-Acessando o site: "https://capturetheflag.com.br/challenge/meta.png", aparece uma foto. Baixei a foto e coloquei em um site de extrair metadados, o "https://exif.tools/". 
-
-Em comentários tinha: "flag ZmxhZ21ldGFocw=="
-
-Decodifiquei o código e obtive: "flagmetahs"
-
-FLAG OBTIDA!

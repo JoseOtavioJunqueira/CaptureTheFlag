@@ -1,9 +1,0 @@
-Ao abrir o DevTools, apareceu uma mensagem de cookies que nunca havia aparecido. "baseUrlAuth=http://capturetheflag.com.br/"
-
-Como o nome do desafio é "cors", imaginei que precisaria mudar o protocolo da URL.
-
-No DevTools, fui em "Application" e em "Cookies" e editei o protocolo para "https".
-
-Preenchi os inputs com qualquer coisa, já que eles são "required" e enviei.
-
-FLAG OBTIDA!

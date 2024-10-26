@@ -1,7 +1,0 @@
-Analisei o Inspecionar e encontrei oculto "S1ZJb2RqUmZ4b3dk".
-
-Decifrei e encontrei: "KVIodjRfxowd". 
-
-Como o nome do desafio é "Cesar0", joguei na ferramenta Cesar e com a rotação 3 obtive: "HSFlagOculta".
-
-FLAG OBTIDA!

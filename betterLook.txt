@@ -1,5 +1,0 @@
-O desafio deixava claro que havia algo escondido, olhando o código encontrei um comentário: "b3BlbkV5ZQ==".
-
-Decodifiquei e obtive: "openEye".
-
-FLAG OBITDA!
